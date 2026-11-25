@@ -2,7 +2,7 @@
 
 A rule-driven loot filter generator for **Path of Exile 2**, with ready-to-use `.filter` files.
 
-Every filter follows one strict hierarchy, **Survive → Salvage → Hide**: valuable drops and
+Every filter follows one strict hierarchy, **Good Find → Salvage → Hide**: valuable drops and
 relevant crafting bases stand out at once, outdated bases with quality or sockets are marked for
 the salvage bench, and everything else is hidden.
 
