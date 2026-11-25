@@ -10,6 +10,7 @@
 
 # 2. WHITELIST - files safe to publish
 !/.gitignore
+!/.gitattributes
 !/README.md
 !/LICENSE.md
 !/NOTICE.md

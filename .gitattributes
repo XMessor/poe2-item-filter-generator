@@ -1,0 +1,2 @@
+# Keep LF line endings on every checkout (the engine writes LF; byte-identical builds).
+* text=auto eol=lf
