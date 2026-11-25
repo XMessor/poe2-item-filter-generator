@@ -33,7 +33,7 @@ changes with the level of the area you are in, and **fixed level-band filters** 
 
 ### The code is verbose
 
-I wrote my first lines of code when the year still started with a `1`. I am not a professional
+I wrote my first lines of code when the year still started with a `1` and Turbo Pascal was a thing. I am not a professional
 software engineer: after my university programming exams I turned to physics instead. That is why
 the code here is **intentionally verbose and explicit**: every step is written out, so that
 anyone reading it (my future self included) can see *what* it does and *why*.
