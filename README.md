@@ -11,8 +11,8 @@ You can use it in three ways:
 1. **Use a ready-made filter.** Copy a file from [`filter_samples/`](filter_samples/) into your
    game folder; its README tells you which file does what.
 2. **Make it yours by talking to an AI agent.** Tell your coding agent what matters to you
-   ("I play a Ranger, show me only Dexterity bases, hide runes after level 60"). It writes your
-   settings into a profile, checks them and builds your filter. See [`AGENT_GUIDE.md`](AGENT_GUIDE.md).
+   ("I play a Ranger, I never use maces or sceptres, hide runes after level 60, and make the
+   sounds quieter"). It writes your settings into a profile, checks them and builds your filter. See [`AGENT_GUIDE.md`](AGENT_GUIDE.md).
 3. **Make it yours by hand.** Edit a few CSV or TOML values in your own profile and run one
    command. See the [Customization Guide](.docs/customization_guide.md).
 
