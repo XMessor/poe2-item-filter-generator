@@ -1,0 +1,338 @@
+# v1.0 filter generator - structural configuration.
+# Design and rationale: .docs/filtering_philosophy.md, .docs/visual_and_sound_guide.md.
+# Per-band rules: config/band_rules_*.csv. Players: change settings in a profile, not here
+# (.docs/customization_guide.md).
+# Colours are filter-syntax strings "R G B A". Icon/beam colours are the game's named colours
+# (Red Green Blue Brown White Yellow Cyan Grey Orange Pink Purple).
+# DEFAULT = chosen by the agent, not yet confirmed by the user.
+
+# RePoE snapshots (https://repoe-fork.github.io/poe2/). `version` is the catalog the engine builds
+# from when --repoe-version is not given (user 2026-11-25: player commands stay the same across
+# updates); /update-poe2 sets it after the user approves a new version.
+[repoe]
+version = "0.5.5.9"
+folder = ".infodump"
+file_pattern = "repoe_poe2_{version}_{file}.json"
+base_url = "https://repoe-fork.github.io/poe2/"
+version_pattern = "PoE2 version ([0-9][0-9.]*[0-9])"     # in the index page title
+files = ["base_items", "item_classes"]
+user_agent = "poe2-filter-engine"                        # generic client name, no personal data
+# Reduced catalog (user 2026-11-25): only the fields the engine uses, shipped in the public repo
+# because RePoE's own files may not be redistributed (NOTICE.md). The engine reads the RePoE
+# snapshot when present (maintainer), else this file (players). Written by engine.catalog --export.
+catalog_folder = "data"
+catalog_pattern = "catalog_{version}.json"
+
+# Manual fixes of generated rule CSVs (user 2026-11-14): applied to a section's rows before the
+# build, so they survive regeneration. A row names an existing row by its key; empty cells keep
+# the generated value. Format: config/README.md.
+[overrides]
+file = "overrides.csv"
+
+[output]
+version = "v1.0"                # filter version in every file header
+# Maintainer build output = the ready-made samples in the repo (user 2026-11-25). A build with
+# --profile and no --out writes into <profile>/filters instead, so a player never overwrites them.
+folder = "filter_samples"
+profile_folder = "filters"      # <profile>/<profile_folder> = output of a profile build
+area_level_file = "v1.0_area_level.filter"      # one file, bands switched by AreaLevel
+band_file_pattern = "v1.0_level_{min:02d}-{max:02d}.filter"
+droplevel_suffix = "_droplevel"                  # variant using DropLevel instead of name lists
+
+# Disjoint level bands (v0.5 overlap dropped for AreaLevel).
+bands = [
+  { min = 1,  max = 15 },
+  { min = 16, max = 30 },
+  { min = 31, max = 45 },
+  { min = 46, max = 60 },
+  { min = 61, max = 70 },
+  { min = 71, max = 75 },
+  { min = 76, max = 80 },
+  { min = 81, max = 85 },
+  { min = 86, max = 99 },
+]
+
+# Section order = filter order; first match wins (user 2026-11-14). Hard constraints: Unique+
+# first, catch-all last, every section closes with its own Hide blocks. Inside a section the
+# higher level comes first. In the AreaLevel file the band blocks stay inside their section.
+sections = [
+  { name = "unique",        source = "band_rules_unique.csv" },
+  { name = "currency",      source = "band_rules_currency.csv" },        # family 1 included
+  { name = "league",        source = "band_rules_league.csv" },
+  { name = "socketables",   source = "band_rules_socketables.csv" },
+  { name = "map_items",     source = "band_rules_map_items.csv" },
+  { name = "jewels_quest",  source = "band_rules_jewels_quest.csv" },  # Time-Lost row first
+  { name = "gems",          source = "band_rules_gems.csv" },
+  { name = "gold",          source = "band_rules_gold.csv" },           # StackSize, high to low
+  { name = "flasks",        source = "band_rules_flasks.csv", salvage = true },
+  { name = "jewellery",     source = "jewellery.csv" },                 # rings, amulets, belts
+  { name = "equipment",     source = "algorithm", extra = ["base_exceptions.csv"], salvage = true },
+  { name = "catch_all",     source = "band_rules_catch_all.csv" },
+]
+
+# Importance scale. Drives font size, alert volume and inverse. "H" = hidden.
+# The game's default size 32 is deliberately unused: a 32-size label means "missed by the filter".
+# Sizes 18/21/25/30/35 (user 2026-11-14, play-test: 20-40 was too large at area level 10).
+[importance.0]
+font_size = 18
+volume = 0          # 0 = no sound
+[importance.1]
+font_size = 21
+volume = 0
+[importance.2]
+font_size = 25
+volume = 50
+[importance.3]
+font_size = 30
+volume = 100
+[importance.4]
+font_size = 35
+volume = 200
+[importance.5]
+font_size = 35
+volume = 200
+inverse = true      # DEFAULT definition: background = text colour, text = inverse_text below
+
+[style]
+# Background of every visible label (from the v0.5 theme). The 10% text-colour tint was dropped
+# (user 2026-11-14, play-test: "rather black"). An explicit `background` in a category
+# would override it; none is set now.
+default_background = "0 0 0 235"
+inverse_text = "0 0 0 255"          # DEFAULT
+# Beam colour = the text colour (user 2026-11-14). PlayEffect accepts named colours only, so the
+# text RGB is mapped to its named colour - the category's `icon` value (derived from the text
+# colour; from the border only where a category has no text colour).
+beam_colour = "text"
+
+# Minimap icon size by alert volume. Game values: 0, 1, 2.
+# DEFAULT 0 = largest (PoE1 semantics) - verify with tmp/2026-11-14_filter_syntax_test (T1).
+[icon_size_by_volume]
+0 = 2               # DEFAULT: silent levels (0-1) with an icon get the smallest icon
+200 = 0
+100 = 1
+50 = 2
+
+# Sound families: alert sound id = "what dropped". Every item belongs to exactly one family.
+# category = the family's default colour category; a rule CSV row may override it with its own
+# `category` column. Families 2 (attribute border), 12 (per class) and 14 (per currency) have
+# no default: their rows must name the category.
+[families.1]
+name = "especially valuable and rare"
+icon_shape = "Star"
+category = "exotic"
+[families.2]
+name = "good base"
+icon_shape = "Kite"
+[families.3]
+name = "unique and rarer"
+icon_shape = "Pentagon"
+category = "unique"
+[families.4]
+name = "chaos tier"
+icon_shape = "Diamond"
+category = "chaos_tier"
+[families.5]
+name = "jewellers orbs and desecrated bones"
+icon_shape = "Diamond"
+category = "jewellers_bones"
+[families.6]
+name = "map and endgame items"
+icon_shape = "Square"
+category = "map_items"
+[families.7]
+name = "catch-all"
+icon_shape = "Cross"
+category = "catch_all"
+[families.8]
+name = "collectibles"
+icon_shape = "Triangle"
+category = "collectibles"
+[families.9]
+name = "omens"
+icon_shape = "Moon"
+category = "omens"
+[families.10]
+name = "quality improvers"
+icon_shape = "Diamond"
+category = "quality_improvers"
+[families.11]
+name = "jewels and quest items"
+icon_shape = "Hexagon"
+category = "jewels_quest"
+[families.12]
+name = "flasks and charms"
+icon_shape = "Raindrop"
+[families.13]
+name = "socketables"
+icon_shape = "UpsideDownHouse"
+category = "socketable"
+[families.14]
+name = "crafting"
+icon_shape = "Diamond"
+[families.15]
+name = "gems"
+icon_shape = "Circle"
+category = "gems"
+[families.16]
+name = "lineage support gems"
+icon_shape = "Circle"
+category = "lineage"
+
+# Colour categories. text/border: free RGB; background from [style] default_background. icon: named colour (explicit, as agreed).
+# A family may hold several categories (e.g. crafting tiers).
+[categories.exotic]                 # family 1
+text = "255 0 255 255"
+border = "255 0 255 255"
+icon = "Purple"
+[categories.unique]                 # family 3, from v0.5 template
+text = "255 128 64 255"
+border = "255 128 64 255"
+icon = "Orange"
+[categories.chaos_tier]             # family 4
+text = "0 255 0 255"
+border = "0 255 0 255"
+icon = "Green"
+# Families 5, 8, 9 (user 2026-11-14): border = text colour. All three keep the Pink icon; the shapes tell them apart on the minimap.
+[categories.collectibles]           # family 8: essences, catalysts, liquids, splinters, keys
+text = "255 0 150 255"
+border = "255 0 150 255"
+icon = "Pink"
+[categories.jewellers_bones]        # family 5: Jeweller's Orbs, Desecrated bones
+text = "255 150 200 255"
+border = "255 150 200 255"
+icon = "Pink"
+[categories.omens]                  # family 9
+text = "200 100 255 255"
+border = "200 100 255 255"
+icon = "Pink"
+[categories.map_items]              # family 6, user 2026-11-14; border and background user 2026-11-15 (all map items)
+text = "100 75 50 255"
+border = "150 100 75 255"
+background = "50 25 0 235"
+icon = "Brown"
+[categories.catch_all]              # family 7, from v0.5 template
+text = "255 0 0 255"
+border = "255 255 0 255"
+icon = "Red"
+[categories.quality_improvers]      # family 10, from v0.5 template
+text = "200 200 0 255"
+border = "200 200 0 255"
+icon = "Yellow"
+[categories.jewels_quest]           # family 11, from v0.5 template
+text = "150 255 0 255"
+border = "0 255 0 255"
+icon = "Green"
+[categories.life_flask]             # family 12, from the v0.5 theme
+border = "255 60 60 255"
+icon = "Red"
+[categories.mana_flask]             # family 12
+border = "60 100 255 255"
+icon = "Blue"
+[categories.charm]                  # family 12, from v0.5 template
+border = "155 155 155 255"
+icon = "Grey"
+[categories.socketable]             # family 13, from v0.5 template
+border = "255 255 255 255"
+icon = "White"
+[categories.crafting_magic]         # family 14: Transmutation, Augmentation
+text = "136 136 255 255"
+border = "136 136 255 255"
+icon = "Blue"
+[categories.crafting_rare]          # family 14: Alchemy, Chance, Regal
+text = "255 220 0 255"
+border = "255 220 0 255"
+icon = "Yellow"
+[categories.crafting_forging]       # family 14: Artificer's
+text = "160 180 200 255"
+border = "160 180 200 255"
+icon = "Grey"
+[categories.crafting_verisium]      # family 14: Verisium, Alloy, Crest
+text = "0 255 255 255"
+border = "0 255 255 255"
+icon = "Cyan"
+[categories.gems]                   # family 15
+text = "27 162 155 255"
+border = "27 162 155 255"
+icon = "Cyan"
+[categories.lineage]                # family 16, user 2026-11-14
+text = "100 150 250 255"
+border = "100 150 250 255"
+icon = "Blue"
+[categories.gold]                    # no text colour: game default, as in v0.5 (user 2026-11-14)
+border = "255 215 0 255"            # level 3 only (band_rules_gold.csv)
+icon = "Yellow"
+
+# Equipment border colour = attribute requirement (RePoE requirements; DropLevel mode: Base* conditions).
+[attributes.str]
+border = "255 0 0 255"
+icon = "Red"
+[attributes.dex]
+border = "0 255 0 255"
+icon = "Green"
+[attributes.int]
+border = "0 0 255 255"
+icon = "Blue"
+[attributes.str_dex]
+border = "255 255 0 255"
+icon = "Yellow"
+[attributes.str_int]
+border = "255 0 255 255"
+icon = "Purple"
+[attributes.dex_int]
+border = "0 255 255 255"
+icon = "Cyan"
+[attributes.str_dex_int]
+border = "255 255 255 255"
+icon = "White"
+
+# Classes without an attribute requirement get a fixed attribute colour.
+[class_attribute_override]
+Quivers = "dex"     # paired with bows (user 2026-11-14)
+
+[salvage]
+quality = "255 150 255 255"
+socket = "150 150 150 255"
+quality_and_socket = "200 150 255 255"
+rare_fallback = "255 255 119 255"
+# Besides equipment, the salvage rule also covers these classes (user 2026-11-14: they salvage
+# too). They have no sockets, so only the quality branches apply. Runs after their band rules.
+extra_classes = ["Life Flasks", "Mana Flasks", "Charms"]
+# Thresholds by band top (q = quality, s = sockets; .docs/filtering_philosophy.md -> 5.E Salvage bench rules).
+thresholds = [
+  { up_to = 15, quality = 0, sockets = 0 },
+  { up_to = 30, quality = 4, sockets = 0 },
+  { up_to = 99, quality = 9, sockets = 1 },
+]
+high_quality = 13       # Q >= 13 -> level 3 with sound
+medium_quality = 7      # Q >= max(7, q+1) -> level 1; Q > q -> level 0 only while q < 7
+
+# Equipment tiering (.docs/filtering_philosophy.md -> 5. Equipment progression in detail).
+[equipment]
+# The equipment classes of the earlier v0.5 prototype; other RePoE classes are left to
+# their own sections or the catch-all.
+classes = ["Bows", "Crossbows", "One Hand Maces", "Two Hand Maces", "Quarterstaves", "Spears",
+           "One Hand Swords", "Two Hand Swords", "One Hand Axes", "Two Hand Axes",
+           "Sceptres", "Staves", "Wands", "Talismans",
+           "Foci", "Quivers", "Bucklers", "Shields",
+           "Body Armours", "Boots", "Gloves", "Helmets"]
+family = "2"
+endgame_floor = 75      # bands above it: the band floor drops to 75
+# An attribute group with fewer bases than this merges into the class's main group for tiering
+# (starter bases without requirements, one-off hybrids such as Greatbow) - user 2026-11-14.
+# The border keeps the base's own attribute colour. 1 = pure per-group tiering.
+min_group_size = 4
+rare_max_level = 4
+rare_outdated_campaign = 0     # rare on an outdated base, bands up to the endgame floor
+rare_outdated_endgame = 1      # same above it
+# ItemLevel windows for normal/magic items (user 2026-11-14); the window list of the highest
+# from_band_min <= band min applies; below the lowest window the item counts as outdated.
+item_level_windows = [
+  { from_band_min = 76, windows = [ { min = 75, max = 80, tier = 3 }, { min = 71, max = 74, tier = 2 }, { min = 65, max = 70, tier = 0 } ] },
+  { from_band_min = 81, windows = [ { min = 82, max = 100, tier = 3 }, { min = 81, max = 81, tier = 2 }, { min = 75, max = 80, tier = 0 } ] },
+]
+
+# Rings, amulets, belts: category rule, not by level (config/jewellery.csv for borders).
+[jewellery]
+family = "2"
+normal_magic_level = 1
+rare_level = 2

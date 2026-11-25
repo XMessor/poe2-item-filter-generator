@@ -1,0 +1,2 @@
+name,match,item_class,rarity,family,drop_level,1-15,16-30,31-45,46-60,61-70,71-75,76-80,81-85,86-99,note
+*,class,*,unique,3,1,4bi,4bi,4bi,4bi,4bi,4bi,4bi,4bi,4bi,every class; first section of the filter so it overrides all class rules

@@ -1,0 +1,49 @@
+name,item_class,border,icon,note
+Iron Ring,Ring,255 0 0 255,Red,v0.5
+Ruby Ring,Ring,255 0 0 255,Red,v0.5
+Kinetic Ring,Ring,255 0 0 255,Red,physical damage
+Vitalic Ring,Ring,255 0 0 255,Red,% life
+Emerald Ring,Ring,0 255 0 255,Green,v0.5
+Lazuli Ring,Ring,0 0 255 255,Blue,v0.5
+Sapphire Ring,Ring,0 0 255 255,Blue,v0.5
+Pearl Ring,Ring,0 0 255 255,Blue,v0.5
+Mnemonic Ring,Ring,0 0 255 255,Blue,% mana
+Topaz Ring,Ring,255 255 0 255,Yellow,v0.5
+Amethyst Ring,Ring,255 0 255 255,Purple,v0.5
+Prismatic Ring,Ring,255 0 255 255,Purple,v0.5
+Two-Stone Ring,Ring,255 0 255 255,Purple,two elemental resistances (3 variants)
+Biostatic Ring,Ring,255 0 255 255,Purple,max resistance
+Abyssal Signet,Ring,255 0 255 255,Purple,wasting on hit
+Oneiric Ring,Ring,255 0 255 255,Purple,chaos damage
+Gold Ring,Ring,255 150 0 255,Orange,v0.5
+Unset Ring,Ring,255 150 0 255,Orange,v0.5
+Breach Ring,Ring,255 150 0 255,Orange,additional max quality
+Refined Breach Ring,Ring,255 150 0 255,Orange,additional max quality
+Grasping Ring,Ring,255 150 0 255,Orange,gloves socket
+Dusk Ring,Ring,155 155 155 255,Grey,PrefixSuffixAllowed
+Gloam Ring,Ring,155 155 155 255,Grey,PrefixSuffixAllowed
+Penumbra Ring,Ring,155 155 155 255,Grey,PrefixSuffixAllowed
+Tenebrous Ring,Ring,155 155 155 255,Grey,PrefixSuffixAllowed
+Crimson Amulet,Amulet,255 0 0 255,Red,v0.5
+Amber Amulet,Amulet,255 0 0 255,Red,v0.5
+Bloodstone Amulet,Amulet,255 0 0 255,Red,v0.5
+Jade Amulet,Amulet,0 255 0 255,Green,v0.5
+Azure Amulet,Amulet,0 0 255 255,Blue,v0.5
+Lapis Amulet,Amulet,0 0 255 255,Blue,v0.5
+Lunar Amulet,Amulet,0 0 255 255,Blue,v0.5
+Stellar Amulet,Amulet,255 255 255 255,White,v0.5
+Solar Amulet,Amulet,255 255 255 255,White,v0.5
+Veridical Chain,Amulet,255 255 255 255,White,runic ward
+Gold Amulet,Amulet,255 150 0 255,Orange,rarity - same as Gold Ring; v0.5 was white (user 2026-11-14)
+Pearlescent Amulet,Amulet,255 0 255 255,Purple,all elemental resistances
+Corona Amulet,Amulet,255 150 0 255,Orange,helmet socket
+Distorted Amulet,Amulet,155 155 155 255,Grey,PrefixSuffixAllowed
+Dusk Amulet,Amulet,155 155 155 255,Grey,PrefixSuffixAllowed
+Gloam Amulet,Amulet,155 155 155 255,Grey,PrefixSuffixAllowed
+Penumbra Amulet,Amulet,155 155 155 255,Grey,PrefixSuffixAllowed
+Tenebrous Amulet,Amulet,155 155 155 255,Grey,PrefixSuffixAllowed
+Twisted Amulet,Amulet,155 155 155 255,Grey,PrefixSuffixAllowed
+Lament Amulet,Amulet,155 155 155 255,Grey,PrefixSuffixAllowed
+Portent Amulet,Amulet,155 155 155 255,Grey,PrefixSuffixAllowed
+Absent Amulet,Amulet,155 155 155 255,Grey,PrefixSuffixAllowed
+*,Belt,155 155 155 255,Grey,class rule as in v0.5

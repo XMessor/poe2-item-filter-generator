@@ -1,0 +1,306 @@
+name,match,family,drop_level,1-15,16-30,31-45,46-60,61-70,71-75,76-80,81-85,86-99,note
+Greater Rune of Alacrity,exact,13,65,-,-,-,-,4i,4i,4i,4i,4i,greater rune of
+Greater Rune of Leadership,exact,13,65,-,-,-,-,4i,4i,4i,4i,4i,greater rune of
+Greater Rune of Nobility,exact,13,65,-,-,-,-,4i,4i,4i,4i,4i,greater rune of
+Greater Rune of Tithing,exact,13,65,-,-,-,-,4i,4i,4i,4i,4i,greater rune of
+Ancient Rune of Animosity,exact,13,12,3,3,3,3,3,3,3,3,3,ancient rune of
+Ancient Rune of Control,exact,13,12,3,3,3,3,3,3,3,3,3,ancient rune of
+Ancient Rune of Decay,exact,13,12,3,3,3,3,3,3,3,3,3,ancient rune of
+Ancient Rune of Detonation,exact,13,12,3,3,3,3,3,3,3,3,3,ancient rune of
+Ancient Rune of Discovery,exact,13,12,3,3,3,3,3,3,3,3,3,ancient rune of
+Ancient Rune of Dueling,exact,13,12,3,3,3,3,3,3,3,3,3,ancient rune of
+Ancient Rune of Prowess,exact,13,12,3,3,3,3,3,3,3,3,3,ancient rune of
+Ancient Rune of Retaliation,exact,13,12,3,3,3,3,3,3,3,3,3,ancient rune of
+Ancient Rune of Shattering,exact,13,12,3,3,3,3,3,3,3,3,3,ancient rune of
+Ancient Rune of Splinters,exact,13,12,3,3,3,3,3,3,3,3,3,ancient rune of
+Ancient Rune of Witchcraft,exact,13,12,3,3,3,3,3,3,3,3,3,ancient rune of
+Ancient Rune of the Horde,exact,13,12,3,3,3,3,3,3,3,3,3,ancient rune of
+Ancient Rune of the Titan,exact,13,12,3,3,3,3,3,3,3,3,3,ancient rune of
+Warding Rune of Annihilation,exact,13,30,-,2,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Armature,exact,13,45,-,-,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Bodyguards,exact,13,45,-,-,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Courage,exact,13,15,2,2,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Desperation,exact,13,15,2,2,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Disintegration,exact,13,15,2,2,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Equinox,exact,13,45,-,-,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Glancing,exact,13,30,-,2,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Heart,exact,13,30,-,2,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Hollowing,exact,13,45,-,-,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Nourishment,exact,13,15,2,2,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Obsession,exact,13,45,-,-,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Protection,exact,13,15,2,2,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Reinforcement,exact,13,15,2,2,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Salvaging,exact,13,30,-,2,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Stability,exact,13,30,-,2,2,2,2,2,2,2,2,warding rune of
+Warding Rune of Symbiosis,exact,13,30,-,2,2,2,2,2,2,2,2,warding rune of
+Rune of Accumulation,exact,13,15,2,2,2,2,2,2,2,2,2,rune of
+Rune of Acrobatics,exact,13,15,2,2,2,2,2,2,2,2,2,rune of
+Rune of Confrontation,exact,13,15,2,2,2,2,2,2,2,2,2,rune of
+Rune of Consistency,exact,13,15,2,2,2,2,2,2,2,2,2,rune of
+Rune of Culmination,exact,13,15,2,2,2,2,2,2,2,2,2,rune of
+Rune of Foundations,exact,13,15,2,2,2,2,2,2,2,2,2,rune of
+Rune of Reach,exact,13,15,2,2,2,2,2,2,2,2,2,rune of
+Rune of Renown,exact,13,15,2,2,2,2,2,2,2,2,2,rune of
+Rune of Vital Flame,exact,13,15,2,2,2,2,2,2,2,2,2,rune of
+Rune of Vitality,exact,13,15,2,2,2,2,2,2,2,2,2,rune of
+Rune of the Blossom,exact,13,15,2,2,2,2,2,2,2,2,2,rune of
+Rune of the Hunt,exact,13,15,2,2,2,2,2,2,2,2,2,rune of
+Rune of the Prism,exact,13,15,2,2,2,2,2,2,2,2,2,rune of
+Perfect Adept Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Body Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Charging Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Desert Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Glacial Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Inspiration Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Iron Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Mind Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Rebirth Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Resolve Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Robust Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Stone Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Storm Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Vision Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Perfect Ward Rune,exact,13,65,-,-,-,-,3,3,3,3,3,perfect rune
+Greater Adept Rune,exact,13,52,-,-,-,3,2,2,2,2,2,greater rune
+Greater Body Rune,exact,13,57,-,-,-,3,2,2,2,2,2,greater rune
+Greater Charging Rune,exact,13,52,-,-,-,3,2,2,2,2,2,greater rune
+Greater Desert Rune,exact,13,52,-,-,-,3,2,2,2,2,2,greater rune
+Greater Glacial Rune,exact,13,52,-,-,-,3,2,2,2,2,2,greater rune
+Greater Inspiration Rune,exact,13,62,-,-,-,3,2,2,2,2,2,greater rune
+Greater Iron Rune,exact,13,52,-,-,-,3,2,2,2,2,2,greater rune
+Greater Mind Rune,exact,13,57,-,-,-,3,2,2,2,2,2,greater rune
+Greater Rebirth Rune,exact,13,62,-,-,-,3,2,2,2,2,2,greater rune
+Greater Resolve Rune,exact,13,52,-,-,-,3,2,2,2,2,2,greater rune
+Greater Robust Rune,exact,13,52,-,-,-,3,2,2,2,2,2,greater rune
+Greater Stone Rune,exact,13,59,-,-,-,3,2,2,2,2,2,greater rune
+Greater Storm Rune,exact,13,52,-,-,-,3,2,2,2,2,2,greater rune
+Greater Tempered Rune,exact,13,52,-,-,-,3,2,2,2,2,2,greater rune
+Greater Vision Rune,exact,13,59,-,-,-,3,2,2,2,2,2,greater rune
+Greater Ward Rune,exact,13,52,-,-,-,3,2,2,2,2,2,greater rune
+Lesser Adept Rune,exact,13,5,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Body Rune,exact,13,11,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Charging Rune,exact,13,5,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Desert Rune,exact,13,5,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Glacial Rune,exact,13,5,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Inspiration Rune,exact,13,21,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Iron Rune,exact,13,5,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Mind Rune,exact,13,11,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Rebirth Rune,exact,13,21,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Resolve Rune,exact,13,5,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Robust Rune,exact,13,5,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Stone Rune,exact,13,16,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Storm Rune,exact,13,5,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Tempered Rune,exact,13,5,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Vision Rune,exact,13,16,3,3,2,1,0,0,0,0,0,lesser rune
+Lesser Ward Rune,exact,13,5,3,3,2,1,0,0,0,0,0,lesser rune
+Adept Rune,exact,13,31,-,-,3,2,1,1,1,1,1,rune
+Body Rune,exact,13,37,-,-,3,2,1,1,1,1,1,rune
+Charging Rune,exact,13,31,-,-,3,2,1,1,1,1,1,rune
+Desert Rune,exact,13,31,-,-,3,2,1,1,1,1,1,rune
+Glacial Rune,exact,13,31,-,-,3,2,1,1,1,1,1,rune
+Inspiration Rune,exact,13,45,-,-,3,2,1,1,1,1,1,rune
+Iron Rune,exact,13,31,-,-,3,2,1,1,1,1,1,rune
+Masterwork Rune,exact,13,37,-,-,3,2,1,1,1,1,1,rune
+Mind Rune,exact,13,37,-,-,3,2,1,1,1,1,1,rune
+Rebirth Rune,exact,13,45,-,-,3,2,1,1,1,1,1,rune
+Resolve Rune,exact,13,31,-,-,3,2,1,1,1,1,1,rune
+Robust Rune,exact,13,31,-,-,3,2,1,1,1,1,1,rune
+Stone Rune,exact,13,41,-,-,3,2,1,1,1,1,1,rune
+Storm Rune,exact,13,31,-,-,3,2,1,1,1,1,1,rune
+Tempered Rune,exact,13,31,-,-,3,2,1,1,1,1,1,rune
+Vision Rune,exact,13,41,-,-,3,2,1,1,1,1,1,rune
+Ward Rune,exact,13,31,-,-,3,2,1,1,1,1,1,rune
+Atmohua's Soul Core of Retreat,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Atziri's Soul Core of Alacrity,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Atziri's Soul Core of Devotion,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Atziri's Soul Core of Inoculation,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Atziri's Soul Core of Vitality,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Cholotl's Soul Core of War,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Citaqualotl's Soul Core of Foulness,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Estazunti's Soul Core of Convalescence,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Guatelitzi's Soul Core of Endurance,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Hayoxi's Soul Core of Heatproofing,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Jiquani's Soul Core of Abundance,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Jiquani's Soul Core of Automation,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Jiquani's Soul Core of Malediction,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Jiquani's Soul Core of Munitions,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Jiquani's Soul Core of Quaking,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Jiquani's Soul Core of Radiance,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Jiquani's Soul Core of Rallying,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Jiquani's Soul Core of Rippling,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Jiquani's Soul Core of Severing,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Jiquani's Soul Core of Snares,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Jiquani's Soul Core of Squalls,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Jiquani's Soul Core of Targeting,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Jiquani's Soul Core of Thundering,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Opiloti's Soul Core of Assault,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Quipolatl's Soul Core of Flow,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Soul Core of Atmohua,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Azcapa,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Cholotl,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Citaqualotl,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Jiquani,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Opiloti,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Puhuarte,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Quipolatl,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Tacati,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Ticaba,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Topotante,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Tzamoto,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Vizoma,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Xopec,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Zalatl,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Soul Core of Zantipi,exact,13,35,-,-,3,3,3,3,3,3,3,soul core
+Tacati's Soul Core of Affliction,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Topotante's Soul Core of Dampening,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Tzamoto's Soul Core of Ferocity,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Uromoti's Soul Core of Attenuation,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Xipocado's Soul Core of Dominion,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Xopec's Soul Core of Power,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Zalatl's Soul Core of Insulation,exact,13,65,-,-,-,-,3,3,3,3,3,soul core
+Bear Idol,exact,13,35,-,-,3,3,3,3,3,3,3,idol
+Boar Idol,exact,13,35,-,-,3,3,3,3,3,3,3,idol
+Cat Idol,exact,13,35,-,-,3,3,3,3,3,3,3,idol
+Fox Idol,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Hawk Idol,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Alira,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Eeshta,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Egrin,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Eramir,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Greust,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Grold,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Kraityn,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Maxarius,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Oak,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Ralakesh,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Silk,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Sirrius,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Thruldana,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of Yeena,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of the Martyr,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of the Pharisee,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Idol of the Sycophant,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Owl Idol,exact,13,35,-,-,3,3,3,3,3,3,3,idol
+Ox Idol,exact,13,35,-,-,3,3,3,3,3,3,3,idol
+Panther Idol,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Primate Idol,exact,13,35,-,-,3,3,3,3,3,3,3,idol
+Rabbit Idol,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Snake Idol,exact,13,35,-,-,3,3,3,3,3,3,3,idol
+Stag Idol,exact,13,35,-,-,3,3,3,3,3,3,3,idol
+Stoat Idol,exact,13,65,-,-,-,-,3,3,3,3,3,idol
+Wolf Idol,exact,13,35,-,-,3,3,3,3,3,3,3,idol
+Aldur's Legacy,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Amanamu's Gaze,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Astrid's Creativity,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Betrayal of Aldur,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Breath of Aldur,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Cadigan's Epiphany,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Carved Cunning,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Carved Majesty,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Carved Mischief,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Carved Tenacity,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Citaqualotl's Thesis,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Countess Seske's Rune of Archery,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Courtesan Mannan's Rune of Cruelty,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Craiceann's Rune of Recovery,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Craiceann's Rune of Warding,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Emergent Instinct,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Emergent Possibility,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Emergent Protection,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Emergent Vigour,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Farrul's Rune of Grace,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Farrul's Rune of the Chase,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Farrul's Rune of the Hunt,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Fenumus' Rune of Agony,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Fenumus' Rune of Draining,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Fenumus' Rune of Spinning,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Guatelitzi's Thesis,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Hedgewitch Assandra's Rune of Wisdom,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Ire of Aldur,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Jiquani's Thesis,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Katla's Gloom,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Kolr's Hunt,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Kurgal's Gaze,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Lady Hestra's Rune of Winter,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of A Worthy Foe,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Adonia's Ego,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Alkem Eira,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Amor Mandragora,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Ashrend,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Blackbraid,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Brain Rattler,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Bramblejack,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Briarpatch,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Briskwrap,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Bristleboar,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Brynhand's Mark,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Bushwhack,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Candlemaker,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Chernobog's Pillar,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Crown of Thorns,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Cursecarver,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Deathblow,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Deidbell,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Dionadair,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Duality,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Dunkelhalt,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Dusk Vigil,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Edyrn's Tusks,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Elevore,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Erian's Cobble,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Ezomyte Peak,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Facebreaker,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Foxshade,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Greymake,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Hoghunt,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Horns of Bynden,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Hrimnor's Hymn,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Ironbound,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Keeper of the Arc,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Kingsguard,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Legionstride,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Lifesprig,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Mj,contains,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Northpaw,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Oaksworn,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Obern's Bastion,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Olrovasara,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Quill Rain,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Rondel de Ezo,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Runeseeker's Call,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Serle's Grit,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Spiteful Floret,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Starkonja's Head,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Svalinn,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of The Blood Thorn,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of The Knight-errant,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of The Sentry,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of The Smiling Knight,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of The Unleashed,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of The Vile Knight,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Trampletoe,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Trenchtimbre,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Twisted Empyrean,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Tyranny's Grip,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Wanderlust,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Wings of Caelyn,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Legacy of Wulfsbane,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Medved's Tending,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Passion of Aldur,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Quipolatl's Thesis,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Raven-Touched Shard,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Saqawal's Rune of Erosion,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Saqawal's Rune of Memory,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Saqawal's Rune of the Sky,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Serle's Triumph,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Tecrod's Gaze,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Thane Girt's Rune of Wildness,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Thane Grannell's Rune of Mastery,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Thane Leld's Rune of Spring,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Thane Myrk's Rune of Summer,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+The Greatwolf's Rune of Claws,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+The Greatwolf's Rune of Willpower,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Thrud's Might,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Uhtred's Sidereus,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Ulaman's Gaze,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65
+Vorana's Carnage,exact,13,65,-,-,-,-,4bi,4bi,4bi,4bi,4bi,named 65

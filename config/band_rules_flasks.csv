@@ -1,0 +1,21 @@
+name,match,item_class,rarity,family,category,drop_level,1-15,16-30,31-45,46-60,61-70,71-75,76-80,81-85,86-99,note
+Lesser Life Flask,exact,Life Flasks,any,12,life_flask,1,H,H,H,H,H,H,H,H,H,
+Medium Life Flask,exact,Life Flasks,any,12,life_flask,4,H,H,H,H,H,H,H,H,H,
+Greater Life Flask,exact,Life Flasks,any,12,life_flask,10,0,H,H,H,H,H,H,H,H,
+Grand Life Flask,exact,Life Flasks,any,12,life_flask,16,0,0,H,H,H,H,H,H,H,
+Giant Life Flask,exact,Life Flasks,any,12,life_flask,23,0,1,H,H,H,H,H,H,H,
+Colossal Life Flask,exact,Life Flasks,any,12,life_flask,30,0,2,0,H,H,H,H,H,H,
+Gargantuan Life Flask,exact,Life Flasks,any,12,life_flask,40,0,2,1,0,H,H,H,H,H,
+Transcendent Life Flask,exact,Life Flasks,any,12,life_flask,50,0,2,1,1,H,H,H,H,H,
+Ultimate Life Flask,exact,Life Flasks,any,12,life_flask,60,0,2,1,2,0,0,0,0,0,
+Lesser Mana Flask,exact,Mana Flasks,any,12,mana_flask,1,H,H,H,H,H,H,H,H,H,
+Medium Mana Flask,exact,Mana Flasks,any,12,mana_flask,4,H,H,H,H,H,H,H,H,H,
+Greater Mana Flask,exact,Mana Flasks,any,12,mana_flask,10,0,H,H,H,H,H,H,H,H,
+Grand Mana Flask,exact,Mana Flasks,any,12,mana_flask,16,0,0,H,H,H,H,H,H,H,
+Giant Mana Flask,exact,Mana Flasks,any,12,mana_flask,23,0,1,H,H,H,H,H,H,H,
+Colossal Mana Flask,exact,Mana Flasks,any,12,mana_flask,30,0,2,0,H,H,H,H,H,H,
+Gargantuan Mana Flask,exact,Mana Flasks,any,12,mana_flask,40,0,2,1,0,H,H,H,H,H,
+Transcendent Mana Flask,exact,Mana Flasks,any,12,mana_flask,50,0,2,1,1,H,H,H,H,H,
+Ultimate Mana Flask,exact,Mana Flasks,any,12,mana_flask,60,0,2,1,2,0,0,0,0,0,
+*,class,Charms,rare,12,charm,5,1,1,1,1,1,1,1,1,1,rare only; uniques go to the Unique+ rule
+*,class,Charms,normal_magic,12,charm,5,H,H,H,H,H,H,H,H,H,hidden; still passes the salvage rule (quality)

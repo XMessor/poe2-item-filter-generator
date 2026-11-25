@@ -1,0 +1,215 @@
+name,match,family,drop_level,1-15,16-30,31-45,46-60,61-70,71-75,76-80,81-85,86-99,note
+Essence of Delirium,exact,8,1,4i,4i,4i,4i,4i,4i,4i,4i,4i,special essence
+Essence of Horror,exact,8,1,4i,4i,4i,4i,4i,4i,4i,4i,4i,special essence
+Essence of Hysteria,exact,8,1,4i,4i,4i,4i,4i,4i,4i,4i,4i,special essence
+Essence of Insanity,exact,8,1,4i,4i,4i,4i,4i,4i,4i,4i,4i,special essence
+Essence of the Abyss,exact,8,1,4i,4i,4i,4i,4i,4i,4i,4i,4i,special essence
+Essence of the Breach,exact,8,1,4i,4i,4i,4i,4i,4i,4i,4i,4i,special essence
+Perfect Essence of Abrasion,exact,8,72,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Alacrity,exact,8,1,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Battle,exact,8,72,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Command,exact,8,1,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Electricity,exact,8,72,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Enhancement,exact,8,72,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Flames,exact,8,72,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Grounding,exact,8,1,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Haste,exact,8,72,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Ice,exact,8,72,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Insulation,exact,8,1,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Opulence,exact,8,1,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Ruin,exact,8,72,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Seeking,exact,8,72,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Sorcery,exact,8,72,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of Thawing,exact,8,1,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of the Body,exact,8,72,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of the Infinite,exact,8,72,-,-,-,-,-,3,3,3,3,perfect essence
+Perfect Essence of the Mind,exact,8,72,-,-,-,-,-,3,3,3,3,perfect essence
+Greater Essence of Abrasion,exact,8,60,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Alacrity,exact,8,1,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Battle,exact,8,60,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Command,exact,8,1,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Electricity,exact,8,60,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Enhancement,exact,8,60,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Flames,exact,8,60,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Grounding,exact,8,1,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Haste,exact,8,60,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Ice,exact,8,60,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Insulation,exact,8,1,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Opulence,exact,8,1,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Ruin,exact,8,60,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Seeking,exact,8,60,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Sorcery,exact,8,60,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of Thawing,exact,8,1,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of the Body,exact,8,60,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of the Infinite,exact,8,60,-,-,-,3,3,2,2,2,2,greater essence
+Greater Essence of the Mind,exact,8,60,-,-,-,3,3,2,2,2,2,greater essence
+Lesser Essence of Abrasion,exact,8,25,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Alacrity,exact,8,1,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Battle,exact,8,20,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Command,exact,8,1,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Electricity,exact,8,25,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Enhancement,exact,8,20,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Flames,exact,8,25,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Grounding,exact,8,1,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Haste,exact,8,25,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Ice,exact,8,25,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Insulation,exact,8,1,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Opulence,exact,8,1,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Ruin,exact,8,25,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Seeking,exact,8,20,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Sorcery,exact,8,20,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of Thawing,exact,8,1,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of the Body,exact,8,25,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of the Infinite,exact,8,20,3,3,2,2,1,0,0,0,0,lesser essence
+Lesser Essence of the Mind,exact,8,25,3,3,2,2,1,0,0,0,0,lesser essence
+Essence of Abrasion,exact,8,40,-,-,3,3,2,1,1,1,1,essence
+Essence of Alacrity,exact,8,1,-,-,3,3,2,1,1,1,1,essence
+Essence of Battle,exact,8,40,-,-,3,3,2,1,1,1,1,essence
+Essence of Command,exact,8,1,-,-,3,3,2,1,1,1,1,essence
+Essence of Electricity,exact,8,40,-,-,3,3,2,1,1,1,1,essence
+Essence of Enhancement,exact,8,40,-,-,3,3,2,1,1,1,1,essence
+Essence of Flames,exact,8,40,-,-,3,3,2,1,1,1,1,essence
+Essence of Grounding,exact,8,1,-,-,3,3,2,1,1,1,1,essence
+Essence of Haste,exact,8,40,-,-,3,3,2,1,1,1,1,essence
+Essence of Ice,exact,8,40,-,-,3,3,2,1,1,1,1,essence
+Essence of Insulation,exact,8,1,-,-,3,3,2,1,1,1,1,essence
+Essence of Opulence,exact,8,1,-,-,3,3,2,1,1,1,1,essence
+Essence of Ruin,exact,8,40,-,-,3,3,2,1,1,1,1,essence
+Essence of Seeking,exact,8,40,-,-,3,3,2,1,1,1,1,essence
+Essence of Sorcery,exact,8,40,-,-,3,3,2,1,1,1,1,essence
+Essence of Thawing,exact,8,1,-,-,3,3,2,1,1,1,1,essence
+Essence of the Body,exact,8,40,-,-,3,3,2,1,1,1,1,essence
+Essence of the Infinite,exact,8,40,-,-,3,3,2,1,1,1,1,essence
+Essence of the Mind,exact,8,40,-,-,3,3,2,1,1,1,1,essence
+Refined Adaptive Catalyst,exact,8,50,-,-,-,3,3,3,3,3,3,refined catalyst
+Refined Carapace Catalyst,exact,8,50,-,-,-,3,3,3,3,3,3,refined catalyst
+Refined Chayula's Catalyst,exact,8,50,-,-,-,3,3,3,3,3,3,refined catalyst
+Refined Esh's Catalyst,exact,8,50,-,-,-,3,3,3,3,3,3,refined catalyst
+Refined Flesh Catalyst,exact,8,50,-,-,-,3,3,3,3,3,3,refined catalyst
+Refined Necrotic Catalyst,exact,8,50,-,-,-,3,3,3,3,3,3,refined catalyst
+Refined Neural Catalyst,exact,8,50,-,-,-,3,3,3,3,3,3,refined catalyst
+Refined Reaver Catalyst,exact,8,50,-,-,-,3,3,3,3,3,3,refined catalyst
+Refined Sibilant Catalyst,exact,8,50,-,-,-,3,3,3,3,3,3,refined catalyst
+Refined Skittering Catalyst,exact,8,50,-,-,-,3,3,3,3,3,3,refined catalyst
+Refined Tul's Catalyst,exact,8,50,-,-,-,3,3,3,3,3,3,refined catalyst
+Refined Uul-Netol's Catalyst,exact,8,50,-,-,-,3,3,3,3,3,3,refined catalyst
+Refined Xoph's Catalyst,exact,8,50,-,-,-,3,3,3,3,3,3,refined catalyst
+Adaptive Catalyst,exact,8,30,-,2,2,2,2,2,2,2,2,catalyst
+Carapace Catalyst,exact,8,30,-,2,2,2,2,2,2,2,2,catalyst
+Chayula's Catalyst,exact,8,30,-,2,2,2,2,2,2,2,2,catalyst
+Esh's Catalyst,exact,8,30,-,2,2,2,2,2,2,2,2,catalyst
+Flesh Catalyst,exact,8,30,-,2,2,2,2,2,2,2,2,catalyst
+Necrotic Catalyst,exact,8,30,-,2,2,2,2,2,2,2,2,catalyst
+Neural Catalyst,exact,8,30,-,2,2,2,2,2,2,2,2,catalyst
+Reaver Catalyst,exact,8,30,-,2,2,2,2,2,2,2,2,catalyst
+Sibilant Catalyst,exact,8,30,-,2,2,2,2,2,2,2,2,catalyst
+Skittering Catalyst,exact,8,30,-,2,2,2,2,2,2,2,2,catalyst
+Tul's Catalyst,exact,8,30,-,2,2,2,2,2,2,2,2,catalyst
+Uul-Netol's Catalyst,exact,8,30,-,2,2,2,2,2,2,2,2,catalyst
+Xoph's Catalyst,exact,8,30,-,2,2,2,2,2,2,2,2,catalyst
+Ancient Concentrated Liquid Fear,exact,8,69,-,-,-,-,4i,4i,4i,4i,4i,concentrated liquid
+Ancient Concentrated Liquid Isolation,exact,8,77,-,-,-,-,-,-,4i,4i,4i,concentrated liquid
+Ancient Concentrated Liquid Suffering,exact,8,73,-,-,-,-,-,4i,4i,4i,4i,concentrated liquid
+Concentrated Liquid Fear,exact,8,69,-,-,-,-,4i,4i,4i,4i,4i,concentrated liquid
+Concentrated Liquid Isolation,exact,8,77,-,-,-,-,-,-,4i,4i,4i,concentrated liquid
+Concentrated Liquid Suffering,exact,8,73,-,-,-,-,-,4i,4i,4i,4i,concentrated liquid
+Ancient Potent Liquid Contempt,exact,8,65,-,-,-,-,3,3,3,3,3,potent liquid
+Ancient Potent Liquid Ferocity,exact,8,65,-,-,-,-,3,3,3,3,3,potent liquid
+Ancient Potent Liquid Melancholy,exact,8,65,-,-,-,-,3,3,3,3,3,potent liquid
+Potent Liquid Contempt,exact,8,65,-,-,-,-,3,3,3,3,3,potent liquid
+Potent Liquid Ferocity,exact,8,65,-,-,-,-,3,3,3,3,3,potent liquid
+Potent Liquid Melancholy,exact,8,65,-,-,-,-,3,3,3,3,3,potent liquid
+Ancient Diluted Liquid Greed,exact,8,1,1,1,1,1,1,1,1,1,1,diluted liquid
+Ancient Diluted Liquid Guilt,exact,8,1,1,1,1,1,1,1,1,1,1,diluted liquid
+Ancient Diluted Liquid Ire,exact,8,1,1,1,1,1,1,1,1,1,1,diluted liquid
+Diluted Liquid Greed,exact,8,1,1,1,1,1,1,1,1,1,1,diluted liquid
+Diluted Liquid Guilt,exact,8,1,1,1,1,1,1,1,1,1,1,diluted liquid
+Diluted Liquid Ire,exact,8,1,1,1,1,1,1,1,1,1,1,diluted liquid
+Ancient Liquid Despair,exact,8,1,2,2,2,2,2,2,2,2,2,liquid
+Ancient Liquid Disgust,exact,8,1,2,2,2,2,2,2,2,2,2,liquid
+Ancient Liquid Envy,exact,8,1,2,2,2,2,2,2,2,2,2,liquid
+Ancient Liquid Paranoia,exact,8,1,2,2,2,2,2,2,2,2,2,liquid
+Liquid Despair,exact,8,1,2,2,2,2,2,2,2,2,2,liquid
+Liquid Disgust,exact,8,1,2,2,2,2,2,2,2,2,2,liquid
+Liquid Envy,exact,8,1,2,2,2,2,2,2,2,2,2,liquid
+Liquid Paranoia,exact,8,1,2,2,2,2,2,2,2,2,2,liquid
+Black Scythe Artifact,exact,8,1,2,2,2,2,2,2,2,2,2,expedition artifact
+Broken Circle Artifact,exact,8,1,2,2,2,2,2,2,2,2,2,expedition artifact
+Order Artifact,exact,8,1,2,2,2,2,2,2,2,2,2,expedition artifact
+Sun Artifact,exact,8,1,2,2,2,2,2,2,2,2,2,expedition artifact
+Exotic Coinage,exact,8,1,3,3,3,3,3,3,3,3,3,exotic coinage
+Breach Splinter,exact,8,1,2,2,2,2,2,2,2,2,2,splinter
+Petition Splinter,exact,8,1,2,2,2,2,2,2,2,2,2,splinter
+Ritual Splinter,exact,8,1,2,2,2,2,2,2,2,2,2,splinter
+Runic Splinter,exact,8,1,2,2,2,2,2,2,2,2,2,splinter
+Simulacrum Splinter,exact,8,1,2,2,2,2,2,2,2,2,2,splinter
+Revelatory Wombgift,exact,8,80,-,-,-,-,-,-,2b,2b,2b,revelatory wombgift
+Banded Wombgift,exact,8,1,1,1,1,1,1,1,1,1,1,wombgift
+Lavish Wombgift,exact,8,1,1,1,1,1,1,1,1,1,1,wombgift
+Ornate Wombgift,exact,8,1,1,1,1,1,1,1,1,1,1,wombgift
+Signet Wombgift,exact,8,1,1,1,1,1,1,1,1,1,1,wombgift
+Bronze Key,exact,8,1,1,1,1,1,1,1,1,1,1,bronze key
+Silver Key,exact,8,1,2,2,2,2,2,2,2,2,2,silver key
+Gold Key,exact,8,1,3,3,3,3,3,3,3,3,3,gold key
+Gnawed Collarbone,exact,5,25,-,1,1,1,1,1,1,1,1,gnawed bone
+Gnawed Jawbone,exact,5,25,-,1,1,1,1,1,1,1,1,gnawed bone
+Gnawed Rib,exact,5,25,-,1,1,1,1,1,1,1,1,gnawed bone
+Preserved Collarbone,exact,5,61,-,-,-,-,2,2,2,2,2,preserved bone
+Preserved Jawbone,exact,5,61,-,-,-,-,2,2,2,2,2,preserved bone
+Preserved Rib,exact,5,61,-,-,-,-,2,2,2,2,2,preserved bone
+Preserved Cranium,exact,5,65,-,-,-,-,3,3,3,3,3,preserved rare bone
+Preserved Vertebrae,exact,5,65,-,-,-,-,3,3,3,3,3,preserved rare bone
+Ancient Collarbone,exact,5,75,-,-,-,-,-,3,3,3,3,ancient bone
+Ancient Jawbone,exact,5,75,-,-,-,-,-,3,3,3,3,ancient bone
+Ancient Rib,exact,5,75,-,-,-,-,-,3,3,3,3,ancient bone
+Altered Collarbone,exact,5,1,3,3,3,3,3,3,3,3,3,altered collarbone
+Omen of Dextral Annulment,exact,9,80,-,-,-,-,-,-,4i,4i,4i,omen 80
+Omen of Dextral Erasure,exact,9,80,-,-,-,-,-,-,4i,4i,4i,omen 80
+Omen of Sanctification,exact,9,80,-,-,-,-,-,-,4i,4i,4i,omen 80
+Omen of Sinistral Annulment,exact,9,80,-,-,-,-,-,-,4i,4i,4i,omen 80
+Omen of Sinistral Erasure,exact,9,80,-,-,-,-,-,-,4i,4i,4i,omen 80
+Omen of the Blessed,exact,9,80,-,-,-,-,-,-,4i,4i,4i,omen 80
+Aldur's Saga,exact,9,78,-,-,-,-,-,-,3,3,3,omen
+Medved's Saga,exact,9,78,-,-,-,-,-,-,3,3,3,omen
+Olroth's Saga,exact,9,78,-,-,-,-,-,-,3,3,3,omen
+Omen of Abyssal Echoes,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Amelioration,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Answered Prayers,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Bartering,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Catalysing Exaltation,exact,9,75,-,-,-,-,-,3,3,3,3,omen
+Omen of Chance,exact,9,75,-,-,-,-,-,3,3,3,3,omen
+Omen of Chaotic Effectiveness,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Chaotic Monsters,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Chaotic Quantity,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Chaotic Rarity,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Corruption,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Dextral Alchemy,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Dextral Coronation,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Dextral Crystallisation,exact,9,75,-,-,-,-,-,3,3,3,3,omen
+Omen of Dextral Exaltation,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Dextral Necromancy,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Gambling,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Greater Annulment,exact,9,75,-,-,-,-,-,3,3,3,3,omen
+Omen of Greater Exaltation,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Homogenising Coronation,exact,9,75,-,-,-,-,-,3,3,3,3,omen
+Omen of Homogenising Exaltation,exact,9,75,-,-,-,-,-,3,3,3,3,omen
+Omen of Light,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Putrefaction,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Recombination,exact,9,75,-,-,-,-,-,3,3,3,3,omen
+Omen of Refreshment,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Reinforcements,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Resurgence,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Secret Compartments,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Sinistral Alchemy,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Sinistral Coronation,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Sinistral Crystallisation,exact,9,75,-,-,-,-,-,3,3,3,3,omen
+Omen of Sinistral Exaltation,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Sinistral Necromancy,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of Whittling,exact,9,75,-,-,-,-,-,3,3,3,3,omen
+Omen of the Ancients,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of the Blackblooded,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of the Hunt,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of the Liege,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Omen of the Sovereign,exact,9,1,3,3,3,3,3,3,3,3,3,omen
+Uhtred's Saga,exact,9,78,-,-,-,-,-,-,3,3,3,omen
+Vorana's Saga,exact,9,78,-,-,-,-,-,-,3,3,3,omen

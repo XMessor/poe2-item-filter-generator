@@ -1,0 +1,23 @@
+name,match,item_class,rarity,family,drop_level,waystone_tier,1-15,16-30,31-45,46-60,61-70,71-75,76-80,81-85,86-99,note
+*,class,Waystones,any,6,58,1,-,-,-,3i,1,0,H,H,H,
+*,class,Waystones,any,6,66,2,-,-,-,-,1,0,H,H,H,
+*,class,Waystones,any,6,67,3,-,-,-,-,1,0,H,H,H,
+*,class,Waystones,any,6,68,4,-,-,-,-,2,1,H,H,H,
+*,class,Waystones,any,6,69,5,-,-,-,-,2,1,H,H,H,
+*,class,Waystones,any,6,70,6,-,-,-,-,3i,1,0,H,H,
+*,class,Waystones,any,6,71,7,-,-,-,-,-,2,0,H,H,
+*,class,Waystones,any,6,72,8,-,-,-,-,-,2,0,0,0,
+*,class,Waystones,any,6,73,9,-,-,-,-,-,2,1,0,0,
+*,class,Waystones,any,6,74,10,-,-,-,-,-,3i,1,0,0,
+*,class,Waystones,any,6,75,11,-,-,-,-,-,3i,1,1,1,
+*,class,Waystones,any,6,76,12,-,-,-,-,-,-,2,1,1,
+*,class,Waystones,any,6,77,13,-,-,-,-,-,-,2,1,1,
+*,class,Waystones,any,6,78,14,-,-,-,-,-,-,2,2,2,
+*,class,Waystones,any,6,79,15,-,-,-,-,-,-,3i,2,2,
+*,class,Waystones,any,6,80,16,-,-,-,-,-,-,3i,3i,3i,
+*,class,Tablet,normal_magic,6,65,,-,-,-,-,2i,2i,2i,2i,2i,
+*,class,Tablet,rare,6,65,,-,-,-,-,3i,3i,3i,3i,3i,may be moved to family 1 per band
+*,class,Pinnacle Keys,any,6,1,,4i,4i,4i,4i,4i,4i,4i,4i,4i,drop_level 1 from RePoE is not a real limit
+*,class,Vault Keys,any,6,35,,-,-,3i,3i,3i,3i,3i,3i,3i,drop_level varies per key (35-68)
+*,class,Relics,any,6,1,,2i,2i,2i,2i,2i,2i,2i,2i,2i,drop_level varies per relic (1-78)
+*,class,Trial Coins,any,6,24,,-,2i,2i,2i,2i,2i,2i,2i,2i,drop_level varies per coin (24-65)

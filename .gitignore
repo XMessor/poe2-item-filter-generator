@@ -1,0 +1,39 @@
+# ======================================================================
+# STRICT PRIVACY - default-deny. Nothing is pushed unless whitelisted.
+# Public repo of the PoE2 filter generator (2026-11-25): only the files a
+# player or a contributor needs. Local working files, AI agent memory and
+# the agent adapters (CLAUDE.md, AGENTS.md) stay on this machine.
+# ======================================================================
+
+# 1. Ignore everything at the root by default
+/*
+
+# 2. WHITELIST - files safe to publish
+!/.gitignore
+!/README.md
+!/LICENSE.md
+!/NOTICE.md
+!/AGENT_GUIDE.md
+
+# 3. Folders whose whole content is public (English docs, engine, default
+#    config, reduced catalog, ready-made filters)
+!/.docs/
+!/engine/
+!/config/
+!/data/
+!/filter_samples/
+
+# 4. Player profiles stay local: only the folder's README is public
+!/profiles/
+/profiles/*
+!/profiles/README.md
+
+# Everything else stays local, including the engine log (.log/) and the
+# RePoE snapshots (.infodump/), which may not be redistributed (NOTICE.md).
+
+# Python caches and OS / editor junk (inside any whitelisted folder)
+__pycache__/
+*.pyc
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini

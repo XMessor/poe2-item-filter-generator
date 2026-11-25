@@ -1,0 +1,7 @@
+implicit_prefix,item_class,label,effect
+BowImplicitAdditionalArrows,Bow,additional arrow,+1
+CrossbowImplicitAdditionalAmmo,Crossbow,additional ammo,+1
+SpearImplicitFasterBleed,Spear,faster bleeding,+1
+MaceImplicitCriticalMultiplier,One Hand Mace,critical multiplier,+1
+QuiverImplicitIncreasedAttackSpeed,Quiver,attack speed,+1
+BodyArmourImplicitMovementVelocity,Body Armour,movement speed,+1
