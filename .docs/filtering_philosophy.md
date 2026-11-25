@@ -10,11 +10,11 @@ Every generated Path of Exile 2 (`v1.0`) filter evaluates dropped items strictly
 
 ---
 
-## 1. Core Philosophy: Survive → Salvage → Hide
+## 1. Core Philosophy: Good Find → Salvage → Hide
 
 For every item category, the filter applies a three-step decision funnel:
 
-1. **Survive:** High-value currency, uniques, endgame keys, and crafting bases relevant to your current progression level—along with items of sufficient rarity (`Rare` or `Unique`)—are always shown so you never miss an upgrade or valuable drop.
+1. **Good Find:** High-value currency, uniques, endgame keys, and crafting bases relevant to your current progression level—along with items of sufficient rarity (`Rare` or `Unique`)—are always shown so you never miss an upgrade or valuable drop.
 2. **Salvage:** Outdated `Normal` and `Magic` equipment bases (plus hidden flasks and charms) are checked for useful **Quality** or **Sockets** above band-scaled thresholds so you can collect Salvage Bench materials efficiently.
 3. **Hide:** Everything else is **explicitly hidden** (`Hide`) at the end of its section to keep screen clutter away and ensure intentionally filtered items never leak down into the safety net (`Catch-all`).
 

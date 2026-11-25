@@ -20,7 +20,7 @@ When `engine/render.py` writes a `Show` block from `config/structure.toml`, each
 
 | Layer | What Determines It |
 |---|---|
-| **Visibility (`Show` / `Hide`)** | Progression rules (`Survive → Salvage → Hide`) |
+| **Visibility (`Show` / `Hide`)** | Progression rules (`Good Find → Salvage → Hide`) |
 | **Font Size & Sound Volume** | **Importance Level** (`0–5`) |
 | **Sound ID & Minimap Icon Shape** | **Sound Family** (`1–16`) |
 | **Text Colour & Named Beam/Icon Colour** | **Colour Category** (defaults per family, overridable per item) |
